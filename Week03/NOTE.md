@@ -1,5 +1,5 @@
-#学习笔记 
-##泛型递归
+# 学习笔记 
+## 泛型递归
 ```java
 public void recur(int level, int param) { 
     //终止条件
@@ -14,11 +14,14 @@ public void recur(int level, int param) {
     //恢复当前状态
 }
 ```    
-##分治
+## 分治
 
-* 169.多数元素  
+* 169.多数元素
+
     >*给定一个大小为 n 的数组，找到其中的多数元素。多数元素是指在数组中出现次数大于 ⌊ n/2 ⌋ 的元素。
 你可以假设数组是非空的，并且给定的数组总是存在多数元素。*
+
+
 ```java
  public int majorityElement(int[] nums) {
         //方法一:分治
@@ -54,4 +57,4 @@ public void recur(int level, int param) {
         return count;
     }
 ```
-##回溯
+## 回溯
